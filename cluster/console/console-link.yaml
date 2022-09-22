@@ -9,3 +9,15 @@ spec:
   applicationMenu:
     section: Kubernetes Blogs
     imageURL: https://i.ibb.co/pZ0Lxdb/Logo-Red-Hat-Hat-Color-RGB.png
+---
+apiVersion: console.openshift.io/v1
+kind: ConsoleLink
+metadata:
+  name: ocp100
+spec:
+  href: 'https://mmondics.github.io/ocp-cloudpak-workshop/'
+  location: ApplicationMenu
+  text: OCP on Z Workshop
+  applicationMenu:
+    section: Workshop Materials
+    imageURL: https://raw.githubusercontent.com/mmondics/openshift-gitops-getting-started/main/images/ibm-logo.jpg
