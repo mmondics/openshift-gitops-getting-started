@@ -23,8 +23,5 @@ spec:
     mappingMethod: claim
     name: ldap-ats-wscdmz-wfwfsldapcl01
     type: LDAP
-  templates:
-    login:
-      name: login-template
   tokenConfig:
     accessTokenMaxAgeSeconds: 172800
